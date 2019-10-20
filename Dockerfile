@@ -5,4 +5,3 @@ RUN apt-get update && \
 USER nobody
 ENV PATH=/usr/lib/nagios/plugins:/usr/local/bin:/usr/bin:/bin
 ENTRYPOINT ["check_nrpe"]
-RUN check_nrpe --help
